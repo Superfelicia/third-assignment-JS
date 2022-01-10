@@ -18,8 +18,6 @@ let toggleStatus = 0;
 // make an event listener for onClick and close
 
 
-// Hamburger icon
-
 menuBtn.addEventListener("click", function () {
     if (menuLinks.classList.contains('active')) {
         menuLinks.classList.remove("active");
@@ -33,17 +31,6 @@ window.addEventListener("click", function (e) {
         menuLinks.classList.remove("active");
     }
 });
-
-
-// drop down menu
-
-function menuBtnClick(){
-    alert('Poop')
-}
-
-
-// close when clicked outside of div
-
 
 
 // function for modal
